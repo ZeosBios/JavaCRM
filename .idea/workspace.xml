@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a7f5fec-94af-4f5b-82cd-b3302fcf6517" name="Default" comment="" />
+    <list default="true" id="6a7f5fec-94af-4f5b-82cd-b3302fcf6517" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javacrm/zinovev/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javacrm/zinovev/TopField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javacrm/zinovev/UserTabelView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCRM/javacrm/zinovev/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCRM/javacrm/zinovev/Main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCRM/javacrm/zinovev/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCRM/javacrm/zinovev/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javacrm/zinovev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacrm/zinovev/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javacrm/zinovev/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacrm/zinovev/User.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +26,32 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/javacrm/zinovev/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+            <state relative-caret-position="313">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopField.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javacrm/zinovev/TopField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javacrm/zinovev/MainMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,25 +62,24 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/javacrm/zinovev/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
+                <element signature="e#1285#1286#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserTabelView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javacrm/zinovev/UserTabelView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,11 +94,24 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>usersData</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/javacrm/zinovev/Users.java" />
+        <option value="$PROJECT_DIR$/src/javacrm/zinovev/TopFild.java" />
+        <option value="$PROJECT_DIR$/src/javacrm/zinovev/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/javacrm/zinovev/TopField.java" />
+        <option value="$PROJECT_DIR$/src/javacrm/zinovev/UserTabelView.java" />
+        <option value="$PROJECT_DIR$/src/javacrm/zinovev/User.java" />
         <option value="$PROJECT_DIR$/src/javacrm/zinovev/Main.java" />
       </list>
     </option>
@@ -74,6 +121,9 @@
     <option name="y" value="47" />
     <option name="width" value="1279" />
     <option name="height" value="701" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -102,8 +152,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -192,17 +242,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="77" y="47" width="1279" height="701" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32994923" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32715008" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32656515" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -212,19 +263,46 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993232" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/javacrm/zinovev/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javacrm/zinovev/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/javacrm/zinovev/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
@@ -240,22 +318,9 @@
         <state relative-caret-position="240">
           <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
           <folding>
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -270,35 +335,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JavaCRM.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javacrm/zinovev/UserTabelView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/javacrm/zinovev/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javacrm/zinovev/TopField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javacrm/zinovev/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/javacrm/zinovev/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+        <state relative-caret-position="313">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

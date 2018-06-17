@@ -1,11 +1,15 @@
 package javacrm.zinovev;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+
 public class User {
 
     private int id;
     private String login;
     private String password;
     private String email;
+    private static ObservableList<User> usersData = FXCollections.observableArrayList();
 
     public User(int id, String login, String password, String email) {
         this.id = id;
