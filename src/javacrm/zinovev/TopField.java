@@ -17,31 +17,31 @@ public class TopField {
 
     private void CreateGUI(){
         final TextField iD = new TextField();
-        iD.setPromptText("id");
+        iD.setPromptText("Id");
         iD.setMaxWidth(UserTabelView.getIdColumn().getPrefWidth());
-        final TextField login = new TextField();
-        login.setMaxWidth(UserTabelView.getLoginColumn().getPrefWidth());
-        login.setPromptText("Ligin");
-        final TextField password = new TextField();
-        password.setMaxWidth(UserTabelView.getPasswordColumn().getPrefWidth());
-        password.setPromptText("Password");
+        final TextField name = new TextField();
+        name.setMaxWidth(UserTabelView.getNamelColumn().getPrefWidth());
+        name.setPromptText("First Name");
         final TextField addEmail = new TextField();
         addEmail.setMaxWidth(UserTabelView.getEmailColumn().getPrefWidth());
-        addEmail.setPromptText("Email");
+        addEmail.setPromptText("E-mail");
+        final TextField addPhoneNumber = new TextField();
+        addPhoneNumber.setMaxWidth(UserTabelView.getPhoneNumberColumn().getPrefWidth());
+        addPhoneNumber.setPromptText("Phone Number");
 
         Button addButton = new Button("Add");
         addButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
                 UserTabelView.getUsersData().add(new User(
                         Integer.valueOf(iD.getText()),
-                        login.getText(),
-                        password.getText(),
-                        addEmail.getText()
+                        name.getText(),
+                        addEmail.getText(),
+                        Long.valueOf(addPhoneNumber.getText())
                 ));
                 iD.clear();
-                login.clear();
-                password.clear();
+                name.clear();
                 addEmail.clear();
+                addPhoneNumber.clear();
             }
         });
         Button removeButton = new Button("Remove");
@@ -56,7 +56,7 @@ public class TopField {
         search.setPromptText("search");
         search.setMaxWidth(UserTabelView.getIdColumn().getPrefWidth());
         Button searchButton = new Button("Searche");
-        hBox.getChildren().addAll(iD, login, password, addEmail, addButton, removeButton, search, searchButton);
+        hBox.getChildren().addAll(iD, name, addEmail, addPhoneNumber, addButton, removeButton, search, searchButton);
         hBox.setAlignment(Pos.CENTER);
     }
 

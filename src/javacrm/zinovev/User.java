@@ -1,21 +1,18 @@
 package javacrm.zinovev;
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
-
 public class User {
 
     private int id;
-    private String login;
-    private String password;
+    private String name;
     private String email;
-    private static ObservableList<User> usersData = FXCollections.observableArrayList();
+    private Long phoneNumber;
 
-    public User(int id, String login, String password, String email) {
+
+    public User(int id, String name, String email, long phoneNumber) {
         this.id = id;
-        this.login = login;
-        this.password = password;
+        this.name = name;
         this.email = email;
+        this.phoneNumber = phoneNumber;
     }
 
     public User() {
@@ -29,20 +26,12 @@ public class User {
         this.id = id;
     }
 
-    public String getLogin() {
-        return login;
+    public String getName() {
+        return this.name;
     }
 
-    public void setLogin(String login) {
-        this.login = login;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getEmail() {
@@ -51,6 +40,14 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public long getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(long phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 }
 

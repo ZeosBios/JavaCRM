@@ -10,9 +10,10 @@ public class UserTabelView {
 
     private static TableView<User> tableUsers =  new TableView();;
     private static TableColumn<User, Integer> idColumn;
-    private static TableColumn<User, String> loginColumn;
-    private static TableColumn<User, String> passwordColumn;
+    private static TableColumn<User, String> nameColumn;
     private static TableColumn<User, String> emailColumn;
+    private static TableColumn<User, Long> phoneNumberColumn;
+
     private static ObservableList<User> usersData = FXCollections.observableArrayList();
 
     public UserTabelView(){
@@ -21,17 +22,16 @@ public class UserTabelView {
 
     private void CreateGUI(){
         idColumn = new TableColumn("id");
-        loginColumn = new TableColumn("login");
-        passwordColumn = new TableColumn("password");
-        emailColumn = new TableColumn("email");
+        nameColumn = new TableColumn("Name");
+        emailColumn = new TableColumn("E-mail");
+        phoneNumberColumn = new TableColumn("Phone Number");
         idColumn.setCellValueFactory(new PropertyValueFactory<User, Integer>("id"));
-        loginColumn.setCellValueFactory(new PropertyValueFactory<User, String>("login"));
-        passwordColumn.setCellValueFactory(new PropertyValueFactory<User, String>("password"));
+        nameColumn.setCellValueFactory(new PropertyValueFactory<User, String>("name"));
         emailColumn.setCellValueFactory(new PropertyValueFactory<User, String>("email"));
-        tableUsers.setEditable(true);
-        tableUsers.getColumns().addAll(idColumn, loginColumn, passwordColumn, emailColumn);
-        tableUsers.setEditable(true);
+        phoneNumberColumn.setCellValueFactory(new PropertyValueFactory<User, Long>("phoneNumber"));
+        tableUsers.getColumns().addAll(idColumn, nameColumn, emailColumn, phoneNumberColumn);
         initData();
+        tableUsers.setEditable(true);
         tableUsers.setItems(usersData);
     }
 
@@ -43,24 +43,22 @@ public class UserTabelView {
         return idColumn;
     }
 
+    public static TableColumn<User, String> getNamelColumn() {
+        return nameColumn;
+    }
+
     public static TableColumn<User, String> getEmailColumn() {
         return emailColumn;
     }
 
-    public static TableColumn<User, String> getLoginColumn() {
-        return loginColumn;
-    }
-
-    public static TableColumn<User, String> getPasswordColumn() {
-        return passwordColumn;
-    }
+    public static TableColumn<User, Long> getPhoneNumberColumn() {return phoneNumberColumn; }
 
     public void initData() {
-        usersData.add(new User(1, "Alex", "qwerty", "alex@mail.com"));
-        usersData.add(new User(2, "Bob", "dsfsdfw", "bob@mail.com"));
-        usersData.add(new User(3, "Jeck", "dsfdsfwe", "Jeck@mail.com"));
-        usersData.add(new User(4, "Mike", "iueern", "mike@mail.com"));
-        usersData.add(new User(5, "Colin", "woeirn", "colin@mail.com"));
+        usersData.add(new User(1, "Alex Alexov", "alex@mail.com", 9347568));
+        usersData.add(new User(2, "Bob Bobson", "bob@mail.com", 8765432));
+        usersData.add(new User(3, "Jeck Jacobson", "Jeck@mail.com", 9081234));
+        usersData.add(new User(4, "Mike Milel", "mike@mail.com", 7964326));
+        usersData.add(new User(5, "Colin Colins", "colin@mail.com", 7659012));
     }
 
     public static ObservableList<User> getUsersData(){
